@@ -27,7 +27,7 @@ Options:
 #### Step 2. Write some tests with some test framework
 ```typescript
 import { NODE_URL, STATE, CHAIN_ID, MASTER_ACCOUNT } from './test/state.ts';
-import { transfer, broadcast, waitForTx } from '@waves/waves-transactions';
+import { transfer, broadcast, waitForTx } from '@apsiocoin/apsio-transactions';
 
 
 it('Create transfer transaction', async () => {

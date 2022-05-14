@@ -1,6 +1,6 @@
 {
-  "name": "@waves/node-state",
-  "version": "0.1.0",
+  "name": "@apsiocoin/node-state",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "bin": {
@@ -10,12 +10,18 @@
     "prepare": "tsc",
     "postversion": "npm publish"
   },
-  "author": {
-    "email": "tsddaniil@gmail.com",
-    "name": "Tsigel"
-  },
+  "authors": [
+    {
+      "email": "nicolassaysset@free.fr",
+      "name": "Nicolas Saysset"
+    },
+    {
+      "email": "luc.gireaud@gmail.com",
+      "name": "Luc Gireaud"
+    }
+  ],
   "repository": {
-    "url": "https://github.com/wavesplatform/node-state",
+    "url": "https://github.com/Nicolas82/node-state",
     "type": "git"
   },
   "license": "ISC",
@@ -32,8 +38,8 @@
     "@types/dotenv": "^8.2.0",
     "@types/fs-extra": "^8.0.1",
     "@types/yargs": "^16.0.3",
-    "@waves/ts-types": "1.0.2",
-    "@waves/waves-transactions": "^4.1.8",
+    "@apsiocoin/ts-types": "^0.0.3",
+    "@apsiocoin/apsio-transactions": "^0.0.1",
     "cli-color": "^2.0.0",
     "dotenv": "^8.2.0",
     "fs-extra": "^8.1.0",

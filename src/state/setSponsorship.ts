@@ -1,7 +1,7 @@
 import { TAssetsResponse, IAsset, IAccount, TAccountsResponse } from '../interface';
 import {CHAIN_ID, MASTER_ACCOUNT_SEED} from '../constants';
 import { broadcastAndWait } from '../utils';
-import { sponsorship } from '@waves/waves-transactions';
+import { sponsorship } from '@apsiocoin/apsio-transactions';
 import console from '../utils/console';
 
 export default function <STATE_ASSETS extends Record<string, IAsset>,

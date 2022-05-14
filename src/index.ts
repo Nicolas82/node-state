@@ -1,5 +1,5 @@
 import { outputFile, readFile } from 'fs-extra';
-import { alias, broadcast, libs } from '@waves/waves-transactions';
+import { alias, broadcast, libs } from '@apsiocoin/apsio-transactions';
 import { ACCOUNT_SCRIPT, CHAIN_ID, DAP_SCRIPT, MASTER_ACCOUNT_SEED, NODE_URL, SMART_ASSET_SCRIPT } from './constants';
 import createAssets from './state/createAssets';
 import createAccounts from './state/createAccounts';

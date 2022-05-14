@@ -1,7 +1,7 @@
 import { TAssetsResponse, IAsset, IAccount } from '../interface';
 import { CHAIN_ID, MASTER_ACCOUNT_SEED, SMART_ASSET_SCRIPT } from '../constants';
 import { broadcastAndWait } from '../utils';
-import { issue } from '@waves/waves-transactions';
+import { issue } from '@apsiocoin/apsio-transactions';
 import console from '../utils/console';
 
 

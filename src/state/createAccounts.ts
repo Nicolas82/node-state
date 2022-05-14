@@ -1,5 +1,5 @@
 import {IAccount, IAsset, TAccountsResponse, TAssetsResponse, TLong} from '../interface';
-import { alias, data, lease, libs, nodeInteraction, setScript, transfer } from '@waves/waves-transactions';
+import { alias, data, lease, libs, nodeInteraction, setScript, transfer } from '@apsiocoin/apsio-transactions';
 import { ACCOUNT_SCRIPT, CHAIN_ID, DAP_SCRIPT, MASTER_ACCOUNT_SEED, NODE_URL } from '../constants';
 import { broadcastAndWait } from '../utils';
 import console from '../utils/console';

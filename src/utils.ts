@@ -1,4 +1,4 @@
-import { broadcast, waitForTx } from '@waves/waves-transactions';
+import { broadcast, waitForTx } from '@apsiocoin/apsio-transactions';
 import { NODE_URL } from './constants';
 import { ChildProcessWithoutNullStreams, spawn, SpawnOptionsWithoutStdio } from 'child_process';
 import console from './utils/console';

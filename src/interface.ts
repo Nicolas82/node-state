@@ -1,4 +1,4 @@
-import {TransactionMap, WithId} from '@waves/ts-types';
+import {TransactionMap, WithId} from '@apsiocoin/ts-types';
 
 export type TLong = string | number;
 
